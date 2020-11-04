@@ -1,14 +1,8 @@
-import React, { Component } from "react";
+import React from "react"
 import Layout from "../components/layout"
 
-class App extends Component {
-  render() {
-    return (
-        <>
-          <Layout/>
-        </>
-    )
-  }
-}
+const IndexPage = () => (
+  <Layout />
+)
 
-export default App;
+export default IndexPage

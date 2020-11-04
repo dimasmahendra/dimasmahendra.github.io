@@ -1,21 +1,31 @@
 import React, {Component} from "react"
-import {Helmet} from "react-helmet"
-import "../../static/styles/main.css"
+import "../../static/css/reset.css"
+import "../../static/css/plugins.css"
+import "../../static/css/style.css"
+import "../../static/css/color.css"
+import Header from '../components/parts/header'
 import Navbar from '../components/parts/navbar'
-import Welcome from '../components/parts/welcome'
+import Wrapper from '../components/parts/content/wrapper'
 
 class Layout extends Component {
   render() {
     return (
-      <div>
-        <Navbar/>
-        <Welcome/>
-        <Helmet>
-            <script src="/js/app-1.js"></script>            
-            <script src="/js/app-2.js"></script>            
-            <script src="/js/app-3.js"></script>
-        </Helmet>
-      </div>      
+		<>
+        	<Header/>
+        	<Navbar/>
+			<>
+				<div id="wrapper">
+					<Wrapper />
+				</div>
+				<div className="share-wrapper isShare">
+					<div className="share-title"><span>Share</span></div>
+					<div className="close-share soa"><span>Close</span><i className="fal fa-times"></i></div>
+					<div className="share-inner soa">
+						<div className="share-container"></div>
+					</div>
+				</div>
+			</>
+      	</>      
     );
   }
 }

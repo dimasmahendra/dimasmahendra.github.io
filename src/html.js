@@ -1,19 +1,19 @@
 import React from "react"
 import PropTypes from "prop-types"
-
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
-        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+        <title>Solonick - Creative Responsive Personal Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"></meta>
+        <link rel="shortcut icon" href="/images/favicon.ico"></link>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
+      	<div className="loader-wrap">
+            <div className="pin"></div>
+        </div>
         {props.preBodyComponents}
         <div
           key={`body`}

@@ -5,31 +5,14 @@ export const onRenderBody = (
   pluginOptions
 ) => {
   setHeadComponents([
-      <script
-          key="jquery"
-      src="/js/jquery.min.js"
-      type="text/javascript"
-      aysnc="true"
-      />,
-      <script
-          key="jquery-migrate"
-      src="/js/jquery-migrate-3.0.1.min.js"
-      type="text/javascript"
-      aysnc="true"
-      />,
-      <script
-          key="jquery-easing"
-      src="/js/jquery.easing.1.3.js"
-      type="text/javascript"
-      aysnc="true"
-      />,
-      <script
-          key="jquery-magnific"
-      src="/js/jquery.magnific-popup.min.js"
-      type="text/javascript"
-      aysnc="true"
-      />,
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />,
+    <link type="text/css" rel="stylesheet" href="css/plugins.css"/>,
+    <link type="text/css" rel="stylesheet" href="css/style.css" />,
+    <link type="text/css" rel="stylesheet" href="css/color.css" />,
 ])
   setPostBodyComponents([
+    <script type="text/javascript" src="js/jquery.min.js"></script>,
+    <script type="text/javascript" src="js/plugins.js"></script>,
+    <script type="text/javascript" src="js/scripts.js"></script>,
   ])
 }
