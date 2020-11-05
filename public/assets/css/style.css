@@ -1836,8 +1836,8 @@ section.parallax-section.parallax-sec-half-left .overlay {
 }
 .horizonral-subtitle {
 	position: absolute;
-	left: -290px;
-	top: 20%;
+    left: -325px;
+    top: 35%;
 }
 .horizonral-subtitle span {
 	position: absolute;

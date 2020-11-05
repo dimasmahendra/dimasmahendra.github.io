@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './component/Header';
-import Navbar from './component/Navbar';
-import About from './component/parts/About';
+import Contact from './component/pages/Contact';
+import Home from './component/pages/Home';
 
 class App extends Component {
   render() {
@@ -11,13 +12,13 @@ class App extends Component {
 				<div className="pin"></div>
 			</div>
 			<div id="main">
-				<Header />
-				<div id="wrapper">
-					<Navbar />
-					<div className="content">
-						<About />
-					</div>					
-				</div>
+				<Router>
+					<Header />
+					<Switch>
+						<Route exact path='/' component={Home} />
+						<Route path='/contact' component={Contact} />
+					</Switch>
+				</Router>
 			</div>
 		</>
     );
