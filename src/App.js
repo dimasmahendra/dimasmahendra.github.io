@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './component/Header';
 import Navbar from './component/Navbar';
+import About from './component/parts/About';
 
 class App extends Component {
   render() {
@@ -12,7 +13,10 @@ class App extends Component {
 			<div id="main">
 				<Header />
 				<div id="wrapper">
-					<Navbar />					
+					<Navbar />
+					<div className="content">
+						<About />
+					</div>					
 				</div>
 			</div>
 		</>
