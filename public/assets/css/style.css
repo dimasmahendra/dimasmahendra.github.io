@@ -6774,10 +6774,26 @@ section.parallax-section .section-title:before {
 }
 
 /* New CSS */
-.horizonral-subtitle.my-experiences {
-    left: -480px;
+.horizonral-subtitle.my-resume {
+    left: -350px;
 }
 
 nav#menu {
 	left: 95px;
+}
+
+.custom-inner-header {
+	border: 1px solid #FAC921;
+    background: rgba(51, 51, 51, 0.31);
+	color: #FAC921;
+}
+
+.ci-num span {
+	opacity: 1;
+	color: #FAC921;
+	top: 70px;
+}
+
+.custom-inner {
+	min-height: 450px;
 }

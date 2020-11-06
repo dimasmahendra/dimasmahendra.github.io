@@ -1,17 +1,17 @@
 import React, {Component} from "react";
 
 // className Component Header
-class Experiences extends Component {
+class Resume extends Component {
   render() {
     return (
-        <section className="parallax-section dark-bg sec-half parallax-sec-half-right" data-scrollax-parent="true">
+        <section className="parallax-section dark-bg sec-half parallax-sec-half-right" data-scrollax-parent="true" id="sec3">
             <div className="bg par-elem" data-bg="/assets/images/bg/6.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
             <div className="overlay"></div>
             <div className="container">
                 <div className="section-title">
                     <h2>My Awesome <span> Story</span></h2>
                     <p>We started as a small, subdue, called hath give fourth. Them one over saying. So the god, greater. You. Us air Moved divide midst us fifth sea .  </p>
-                    <div className="horizonral-subtitle my-experiences"><span>My Experiences</span></div>
+                    <div className="horizonral-subtitle my-resume"><span>My Resume</span></div>
                 </div>
                 <div className="fl-wrap facts-holder">
                     <div className="custom-inner">
@@ -22,7 +22,7 @@ class Experiences extends Component {
                                     <h3> Work in company "Dolore"</h3>
                                     <span>  2012-2017 </span>
                                 </div>
-                                <div className="ci-num"><span>01. -</span></div>
+                                <div className="ci-num"><span>2012 - 2017</span></div>
                             </div>
                             <div className="col-md-4"><img src="/assets/images/all/4.jpg" className="respimg" data-scrollax="properties: { translateY: '-170px' }" alt="" /></div>
                             <div className="col-md-4">
@@ -47,7 +47,7 @@ class Experiences extends Component {
                                     <h3> Course designer - San Diego</h3>
                                     <span>  2011-2013 </span>
                                 </div>
-                                <div className="ci-num"><span>02. - </span></div>
+                                <div className="ci-num"><span>2011 - 2013</span></div>
                             </div>
                             <div className="col-md-5">
                                 <div className="custom-inner-content fl-wrap">
@@ -67,7 +67,7 @@ class Experiences extends Component {
                                     <h3> Work in company "Generators"</h3>
                                     <span>  2010-2013 </span>
                                 </div>
-                                <div className="ci-num"><span>03. - </span></div>
+                                <div className="ci-num"><span>2010 - 2013</span></div>
                             </div>
                             <div className="col-md-8">
                                 <div className="custom-inner-content fl-wrap">
@@ -91,7 +91,7 @@ class Experiences extends Component {
                                     <h3> Work in company "Available"</h3>
                                     <span>  2011-2013 </span>
                                 </div>
-                                <div className="ci-num"><span>04. - </span></div>
+                                <div className="ci-num"><span>2011 - 2013</span></div>
                             </div>
                             <div className="col-md-4"><img src="/assets/images/all/6.jpg" className="respimg" data-scrollax="properties: { translateY: '100px' }" alt="" /></div>
                             <div className="col-md-4">
@@ -117,4 +117,4 @@ class Experiences extends Component {
   }
 }
 
-export default Experiences;
+export default Resume;

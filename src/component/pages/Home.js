@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import About from '../parts/About';
-import Experiences from '../parts/Experiences';
+import Resume from '../parts/Resume';
 import Navbar from '../../component/Navbar';
 import Footer from '../parts/Footer';
 
@@ -13,7 +13,7 @@ class Home extends Component {
                 <Navbar />
                 <div className="content">
                     <About />
-                    <Experiences />
+                    <Resume />
                     <section className="dark-bg2 small-padding order-wrap">
                         <div className="container">
                             <div className="row">
