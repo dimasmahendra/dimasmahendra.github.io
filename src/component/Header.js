@@ -40,45 +40,6 @@ class Header extends Component {
 						<ul>
 							<li><a href="/">Home</a></li>
 							<li><a href="/contact">Contact</a></li>
-							<li>
-								<a href="{#}">Portfolio</a>
-								<ul>
-									<li><a href="portfolio.html">Masonry</a></li>
-									<li><a href="portfolio2.html">Masonry 2</a></li>
-									<li><a href="portfolio3.html">Boxed</a></li>
-									<li><a href="portfolio4.html">Boxed 2 </a></li>
-									<li><a href="portfolio5.html">Parallax</a></li>
-									<li><a href="portfolio6.html">Parallax dark</a></li>
-									<li><a href="portfolio8.html">List</a></li>
-									<li>
-										<a href="{#}">Single</a>
-										<ul>
-											<li><a href="portfolio-single.html">Carousel</a></li>
-											<li><a href="portfolio-single2.html">Carousel 2</a></li>
-											<li><a href="portfolio-single3.html">Gallery</a></li>
-											<li><a href="portfolio-single4.html">Gallery 2</a></li>
-											<li><a href="portfolio-single5.html">Slider</a></li>
-											<li><a href="portfolio-single6.html">Showcase</a></li>
-											<li><a href="portfolio-single7.html">Fullscreen  Slider</a></li>
-											<li><a href="portfolio-single8.html">Video</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="services.html">Services</a></li>
-							
-							<li><a href="blog.html">Blog</a></li>
-							<li>
-								<a href="{#}">Pages</a>
-								<ul>
-									<li><a href="services2.html">Services 2</a></li>
-									<li><a href="blog-single.html">Blog single</a></li>
-									<li><a href="team.html">Team</a></li>
-									<li><a href="team-single.html">Team Single</a></li>
-									<li><a href="coming-soon.html">Coming soon</a></li>
-									<li><a href="404.html">404</a></li>
-								</ul>
-							</li>
 						</ul>
 					</nav>
 				</div>
