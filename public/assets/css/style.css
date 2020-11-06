@@ -1839,19 +1839,21 @@ section.parallax-section.parallax-sec-half-left .overlay {
     left: -325px;
     top: 35%;
 }
+
 .horizonral-subtitle span {
 	position: absolute;
 	left: 0;
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 84px;
-	letter-spacing: 6px;
+	letter-spacing: 0px;
 	-webkit-transform: rotate(-90deg);
 	transform: rotate(-90deg);
 	color: rgba(255, 255, 255, 0.11);
 	top: 0;
 	white-space: nowrap;
 }
+
 section.parallax-section.parallax-sec-half-left .horizonral-subtitle {
 	left: inherit;
 	right: 70px;
@@ -6769,4 +6771,13 @@ section.parallax-section .section-title:before {
 		-webkit-background-size: cover;
 		background-position: center;
 	}
+}
+
+/* New CSS */
+.horizonral-subtitle.my-experiences {
+    left: -480px;
+}
+
+nav#menu {
+	left: 95px;
 }

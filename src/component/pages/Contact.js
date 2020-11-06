@@ -16,7 +16,7 @@ class Contact extends Component {
 								</div>
 								<span>Scroll Down</span>
 							</div>
-							<a href="index.html" className="single-page-fixed-row-link"><i className="fal fa-arrow-left"></i> <span>Back
+							<a href="/" className="single-page-fixed-row-link"><i className="fal fa-arrow-left"></i> <span>Back
 									to home</span></a>
 						</div>
 						<section className="parallax-section dark-bg sec-half parallax-sec-half-right" data-scrollax-parent="true">
